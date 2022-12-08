@@ -1,0 +1,17 @@
+{
+  "name": "lend_backend",
+  "version": "1.0.0",
+  "description": "lend backend",
+  "main": "server.js",
+  "scripts": {
+    "start:dev": "npx nodemon src/server.js"
+  },
+  "author": "Felipe França",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
