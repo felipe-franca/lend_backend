@@ -2,9 +2,10 @@
   "name": "lend_backend",
   "version": "1.0.0",
   "description": "lend backend",
-  "main": "server.js",
+  "main": "src/server.js",
   "scripts": {
-    "start:dev": "npx nodemon src/server.js"
+    "start:dev": "npx nodemon src/server.js",
+    "start": "node src/server.js"
   },
   "author": "Felipe França",
   "license": "ISC",
